@@ -110,7 +110,7 @@ plot <- ggplot(merged, aes(long, lat, group = group, fill = sum)) +
   geom_polygon () +
   ggthemes::theme_map() +
   labs(title = "Who attends the Antalya Diplomacy Forum in 2022?",
-       subtitle = "Antalya Diplomacy Forum is a elevated meeting occassion for experts in the field of diplomacy. This map visualizes\n this year's participants' based on their country of origin",
+       subtitle = "The Antalya Diplomacy Forum is an elevated meeting occassion for experts in the field of diplomacy. This map visualizes\n this year's participants based on their country of origin.",
        caption = "Source: https://antalyadf.org/en/participants-2022/ | Plot: @muhammetozkrca") +
   scale_fill_gradientn(breaks=c(0,1,6,11,20), 
                        labels = c("0","1-5","6-10","11-20","20+"),
